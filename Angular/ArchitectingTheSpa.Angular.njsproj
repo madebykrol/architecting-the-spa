@@ -55,6 +55,10 @@
     <Folder Include="e2e\src\" />
     <Folder Include="src\" />
     <Folder Include="src\app\" />
+    <Folder Include="src\app\core\" />
+    <Folder Include="src\app\application\" />
+    <Folder Include="src\app\infrastructure\" />
+    <Folder Include="src\app\components\" />
     <Folder Include="src\assets\" />
     <Folder Include="src\environments\" />
   </ItemGroup>

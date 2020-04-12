@@ -11,15 +11,24 @@
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "strict": true,
-    "forceConsistentCasingInFileNames": true,
     "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react"
+    "jsx": "react",
+    "forceConsistentCasingInFileNames": true
   },
   "include": [
-    "src"
+    "src",
+    "node_modules/interactr/**/*"
+  ],
+  "references": [
+    {
+      "path": "../ArchitectingTheSpa.Core/"
+    },
+    {
+      "path": "../ArchitectingTheSpa.Application/"
+    }
   ]
 }
