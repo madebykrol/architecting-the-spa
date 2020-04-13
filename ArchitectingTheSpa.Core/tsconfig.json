@@ -4,7 +4,9 @@
     "target": "es6",
     "lib": ["es6"],
     "sourceMap": true,
-    "composite": true
+    "composite": true,
+    "declaration": true,
+    "declarationMap": true
   },
   "exclude": [
     "node_modules"

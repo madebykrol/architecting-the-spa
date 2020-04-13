@@ -2,11 +2,18 @@
   "compilerOptions": {
     "module": "commonjs",
     "target": "es6",
-    "lib": ["es6"],
+    "lib": [ "es6" ],
     "sourceMap": true,
-    "composite": true
+    "composite": true,
+    "declaration": true,
+    "declarationMap": true,
+    "noEmit": false
   },
   "exclude": [
     "node_modules"
+  ],
+  "include": [
+    "./**/*",
+    "node_modules/interactr/**/*"
   ]
 }

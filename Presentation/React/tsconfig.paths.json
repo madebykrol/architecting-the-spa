@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    //"baseUrl": "src/",
+    //"paths": {
+    //  "@application/*": [ "../../../ArchitectingTheSpa.Application/*" ]
+    //}
+  },
+  "references": [
+    {
+      "path": "../../ArchitectingTheSpa.Core/"
+    },
+    {
+      "path": "../../ArchitectingTheSpa.Application/"
+    }
+  ]
+}

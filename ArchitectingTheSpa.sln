@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29728.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "ArchitectingTheSpa.React", "React\ArchitectingTheSpa.React.njsproj", "{0252BEF0-2133-44A0-9031-24DD65BFED5C}"
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "ArchitectingTheSpa.React", "Presentation\React\ArchitectingTheSpa.React.njsproj", "{0252BEF0-2133-44A0-9031-24DD65BFED5C}"
 EndProject
-Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "ArchitectingTheSpa.Angular", "angular\ArchitectingTheSpa.Angular.njsproj", "{D09F5FE0-8867-493E-84AD-FEF210C8F7B3}"
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "ArchitectingTheSpa.Angular", "Presentation\Angular\ArchitectingTheSpa.Angular.njsproj", "{D09F5FE0-8867-493E-84AD-FEF210C8F7B3}"
 EndProject
 Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "ArchitectingTheSpa.Core", "ArchitectingTheSpa.Core\ArchitectingTheSpa.Core.njsproj", "{27272245-F205-413D-9F40-77269258D872}"
 EndProject

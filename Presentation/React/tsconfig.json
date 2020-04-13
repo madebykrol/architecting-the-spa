@@ -1,4 +1,5 @@
 {
+  "extends": "./tsconfig.paths.json",
   "compilerOptions": {
     "target": "es5",
     "lib": [
@@ -13,22 +14,14 @@
     "strict": true,
     "module": "esnext",
     "moduleResolution": "node",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
     "noEmit": true,
     "jsx": "react",
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true
   },
   "include": [
     "src",
     "node_modules/interactr/**/*"
-  ],
-  "references": [
-    {
-      "path": "../ArchitectingTheSpa.Core/"
-    },
-    {
-      "path": "../ArchitectingTheSpa.Application/"
-    }
   ]
 }

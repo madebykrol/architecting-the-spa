@@ -31,6 +31,7 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="tsconfig.paths.json" />
     <None Include="server.ts" />
     <Content Include="public\favicon.ico" />
     <Content Include="public\index.html" />
@@ -52,6 +53,7 @@
     <Folder Include="src\components\screens\search\" />
     <Folder Include="src\components\shared\" />
     <Folder Include="src\components\screens\" />
+    <Folder Include="src\components\shared\searchfield\" />
     <Folder Include="src\infrastructure\" />
     <Folder Include="src\components\" />
   </ItemGroup>
@@ -68,6 +70,9 @@
       <SubType>Code</SubType>
     </TypeScriptCompile>
     <TypeScriptCompile Include="src\components\screens\start\StartScreen.tsx">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="src\components\shared\searchfield\SearchField.tsx">
       <SubType>Code</SubType>
     </TypeScriptCompile>
     <TypeScriptCompile Include="src\index.tsx" />
